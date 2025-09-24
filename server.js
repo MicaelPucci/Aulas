@@ -1,7 +1,7 @@
 import express from 'express';
 import { converterParaBinario } from './pratica.js';
 
-const app = express();
+const app = express(); 
 const port = 3000;
 
 function somar(a,b,callback){
